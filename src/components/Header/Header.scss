@@ -1,0 +1,113 @@
+.header_container{
+    // height: 50px;
+    background-color:#003580;
+    display: flex;
+    justify-content: center;
+    // flex-direction: column;
+    padding: 0 50px ;
+    color: #fff;
+    width: 100%;
+    align-items: center;
+    border: 1px solid red;
+
+    .Container{
+        position: relative;
+    }
+
+
+    .header_main_container{
+        max-width: 1024px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 16px;
+        width: 100%;
+        justify-content: space-between;
+
+        .headerRightSide{
+            display: flex;
+            align-items: center;
+      
+            & :nth-child(odd){
+                margin: 0 20px;
+               
+            }
+            & :nth-child(3){
+        
+               background-color: transparent;
+               color: #fff;
+               border: 1px solid #fff;
+            }
+
+            button{
+                padding:  10px;
+                cursor: pointer;
+                background-color: #fff;
+                color: #003580;
+                font-size: 1rem;
+                font-weight: normal;
+                border:none;
+                border-radius: 2px;
+               
+           
+            }
+        }
+    }
+}
+
+.lowerHeader_container{
+    // display: flex;
+    padding: 20px 0;
+    // border: 1px solid green;
+    // justify-content: flex-start;
+
+    li{
+        list-style: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+      
+        padding: 10px 20px;
+        // border: 1px solid;
+        color: #fff;
+       
+        
+
+        &:hover{
+            background-color:#1a4a8d;
+            border-radius: 50px;
+
+
+        }
+    }
+}
+
+.header_description_page{
+    padding: 40px 0;
+
+    button{
+        background-color:  #0071c2;
+        color: #fff;
+       padding: 9px;
+       font-size: 1rem;
+       font-weight: 400;
+       letter-spacing: 0px;
+       margin: 20px 0;
+       
+    }
+
+}
+
+.SearchContainer{
+    width: 100%;
+    display: flex;
+    max-width: 1024px;
+    height: 30px;
+    border: 1px solid #daca11;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -15px;
+    
+}
