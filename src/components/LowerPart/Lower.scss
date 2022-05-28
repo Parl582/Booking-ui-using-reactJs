@@ -1,0 +1,128 @@
+
+.lowerMainContainer{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.lowerHeader_container{
+    display: flex;
+    // align-items: center;
+    max-width: 1224px;
+
+}
+
+.SearchContainer{
+    display: flex;
+    width: 100%;
+    background-color: #febb02;
+    border: 2px solid  green;
+   
+    height: 60px;
+    position: absolute;
+    bottom: -25px;
+    align-items: center;
+    padding: 4px;
+
+    @media screen and (max-width: 768px){
+        height: auto;
+    }
+    
+
+
+
+}
+.search_bar_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between;
+    
+    .searchItem{
+        background-color: aliceblue;
+        margin: 0 3px;
+        display: flex;
+        align-items: center;
+        // height: 100%;
+        &:first-child{
+            width: 450px;
+        }
+        &:nth-child(2){
+            width: 220px;
+            cursor: pointer;
+        }
+        &:nth-child(3){
+            width: 284px;
+            cursor: pointer;
+        }
+
+        input{
+            
+            width: 100%;
+            outline: none;
+            border-radius: 2px;
+            border: none;
+            padding: 15px 20px;
+            // margin: 5px;
+
+        }
+
+        @media screen and (max-width:680px){
+            margin: 5px 3px;
+        }
+
+        span{
+            padding: 0 10px;
+            color: rgb(79, 78, 78);
+           
+        }
+   
+    }
+    .buttons{
+        width: 124px;
+    }
+}
+
+.date{
+    position: absolute;
+    width: auto;
+    top:60px;
+}
+
+.option{
+    color: #000;
+    position: absolute;
+    top: 60px;
+    
+    width: 290px;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: whitesmoke;
+
+    button{
+        padding: 10px;
+        // background-color: lightblue;
+        border-radius: 3px;
+        font-size: 1rem;
+        border: 1px solid #000;
+    }
+}
+
+.OPTIONmENU{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 4px 0;
+    align-items: center;
+}
+.optionClick{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
