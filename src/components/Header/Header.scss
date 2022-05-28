@@ -1,22 +1,26 @@
 .header_container{
-    // height: 50px;
+ 
     background-color:#003580;
-    display: flex;
     justify-content: center;
-    // flex-direction: column;
-    padding: 0 50px ;
+
     color: #fff;
     width: 100%;
     align-items: center;
-    border: 1px solid red;
+    border: 1px solid rgb(210, 22, 22);
 
     .Container{
         position: relative;
+        border: 1px solid ;
+        margin: 0 162px;
+
+        @media screen and (max-width: 768px){
+            margin: 50px;
+        }
     }
 
 
     .header_main_container{
-        max-width: 1024px;
+        // max-width: 1124px;
         color: #fff;
         display: flex;
         align-items: center;
@@ -85,29 +89,20 @@
 .header_description_page{
     padding: 40px 0;
 
-    button{
+    p{
+        margin-bottom: 40px;
+    }
+
+
+    .buttons{
         background-color:  #0071c2;
         color: #fff;
        padding: 9px;
        font-size: 1rem;
        font-weight: 400;
        letter-spacing: 0px;
-       margin: 20px 0;
        
     }
 
 }
 
-.SearchContainer{
-    width: 100%;
-    display: flex;
-    max-width: 1024px;
-    height: 30px;
-    border: 1px solid #daca11;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: absolute;
-    bottom: -15px;
-    
-}
