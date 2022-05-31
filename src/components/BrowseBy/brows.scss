@@ -1,0 +1,90 @@
+
+.mainBrows{
+    width: 100%;
+    margin-top: 100px;
+    padding: 0 150px;
+
+    
+
+    
+    @media screen and (max-width: 768px){
+        padding: 10px 50px;
+    }
+
+    .contentWrapper_brows{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+
+        .leftside{
+            width: 50%;
+            padding: 10px;
+            position: relative;
+            cursor: pointer;
+
+   
+
+            
+
+            @media screen and (max-width: 768px){
+                width: 100%;
+            }
+        }
+
+    }
+
+    //commin container--design's
+
+    .letwrapper{
+        width: 100%;
+        height: 270px;
+        position: relative;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all 1s ease-in-out;
+
+            &:hover{
+                transform: scale(1.01);
+
+            }
+        }
+        .text{
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            color: #fff;
+            font-size: 1.5rem;
+
+            h2{
+                display: flex;
+                align-items: center;
+                
+                img{
+                    width: 40px;
+                    // height: 40px;
+                    margin-left: 10px;
+                    object-fit: contain;
+                }
+            }
+        }
+
+    }
+
+    .rightSide{
+        width: 33%;
+        height: 250px;
+        padding: 10px;
+
+        @media screen and (max-width: 768px){
+            width: 100%;
+            
+        }
+
+
+    }
+
+}
