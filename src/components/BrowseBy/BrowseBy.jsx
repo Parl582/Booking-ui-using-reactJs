@@ -10,7 +10,7 @@ const BrowseBy = () => {
                 <div className="letwrapper">
                     <img src="https://cdn.getyourguide.com/img/location/533591d4b943b.jpeg/88.jpg" alt="" />
                     <div className="text">
-                        <h2>New Delhi 
+                        <h2> Delhi 
                             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/640px-Flag_of_India.svg.png" alt="" />
                              </h2>
                              <p> 21908 proprties</p>
@@ -26,6 +26,8 @@ const BrowseBy = () => {
                             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/640px-Flag_of_India.svg.png" alt="" />
                              </h2>
                              <p> 21908 proprties</p>
+
+                             
                     </div>
                 </div>     
             </div>
