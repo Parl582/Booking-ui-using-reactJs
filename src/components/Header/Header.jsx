@@ -43,7 +43,11 @@ const Header = () => {
               more with a free Booking.com account
             </p>
 
+<<<<<<< HEAD
             <button className="buttonsregister">Sigin/Register</button>
+=======
+            <button className="buttons">Sigin/Register</button>
+>>>>>>> 8a4291bf9626a2123f5aa800a33fb5e5240232e9
             
             <SearchBar/>
           </div>

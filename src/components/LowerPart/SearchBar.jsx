@@ -69,7 +69,12 @@ const SearchBar = () => {
           
           >
             <div className="icons"></div>
+<<<<<<< HEAD
             <span type="text"   onClick={() => setOpenOptiion(!openOptiion)}  >       
+=======
+            <span type="text"   onClick={() => setOpenOptiion(!openOptiion)}  >
+             
+>>>>>>> 8a4291bf9626a2123f5aa800a33fb5e5240232e9
               {`${option.adult} Adult - ${option.child} Child - ${option.room} Room`}{" "}
             </span>
 

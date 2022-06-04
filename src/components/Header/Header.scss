@@ -6,6 +6,10 @@
     color: #fff;
     width: 100%;
     align-items: center;
+<<<<<<< HEAD
+=======
+    border: 1px solid rgb(210, 22, 22);
+>>>>>>> 8a4291bf9626a2123f5aa800a33fb5e5240232e9
 
     .Container{
         position: relative;
@@ -59,9 +63,16 @@
 }
 
 .lowerHeader_container{
+<<<<<<< HEAD
 
     padding: 20px 0;
 
+=======
+    // display: flex;
+    padding: 20px 0;
+    // border: 1px solid green;
+    // justify-content: flex-start;
+>>>>>>> 8a4291bf9626a2123f5aa800a33fb5e5240232e9
 
     li{
         list-style: none;
@@ -92,14 +103,21 @@
     }
 
 
+<<<<<<< HEAD
     .buttonsregister{
+=======
+    .buttons{
+>>>>>>> 8a4291bf9626a2123f5aa800a33fb5e5240232e9
         background-color:  #0071c2;
         color: #fff;
        padding: 9px;
        font-size: 1rem;
        font-weight: 400;
        letter-spacing: 0px;
+<<<<<<< HEAD
        margin-bottom: 40px;
+=======
+>>>>>>> 8a4291bf9626a2123f5aa800a33fb5e5240232e9
        
     }
 

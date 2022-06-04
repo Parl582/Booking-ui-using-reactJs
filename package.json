@@ -37,10 +37,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24"
+=======
+>>>>>>> 8a4291bf9626a2123f5aa800a33fb5e5240232e9
   }
 }
